@@ -1,0 +1,197 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-11T09:35:45.296Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9369000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.GenericStepDefs.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "validate home page landing",
+        "description": "",
+        "id": "validate-elements-in-practice-page;validate-home-page-landing",
+        "after": [
+          {
+            "result": {
+              "duration": 10558000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.GenericStepDefs.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7105000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to \"https://learn.letskodeit.com/\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://learn.letskodeit.com/",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefs.GenericStepDefs.i_navigate_to_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 89000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I validate enrollNow is displayed",
+            "match": {
+              "location": "stepDefs.GenericStepDefs.i_validate_enroll()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I validate home image source is \"https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize\u003dheight:60/https://www.filepicker.io/api/file/WSundQ6BT6u2OZe2kcNA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize\u003dheight:60/https://www.filepicker.io/api/file/WSundQ6BT6u2OZe2kcNA",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefs.GenericStepDefs.i_validate_homeimg_src(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homepage"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-11T09:36:12.659Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6999000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.GenericStepDefs.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Validate Radio buttons, Checkboxes and Selections",
+        "description": "",
+        "id": "validate-elements-in-practice-page;validate-radio-buttons--checkboxes-and-selections",
+        "after": [
+          {
+            "result": {
+              "duration": 10274000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.GenericStepDefs.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7877000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I navigate to \"https://learn.letskodeit.com/\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://learn.letskodeit.com/",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefs.GenericStepDefs.i_navigate_to_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5265000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Practice",
+            "match": {
+              "location": "stepDefs.GenericStepDefs.i_click_on_Practice()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5241000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select BMW radio button",
+            "match": {
+              "location": "stepDefs.GenericStepDefs.i_select_BMW_radio_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5300000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select honda from cars dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "honda",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefs.GenericStepDefs.i_select_Honda_from_cars_dropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@practicepage"
+          }
+        ]
+      }
+    ],
+    "name": "Validate Elements in Practice Page",
+    "description": "",
+    "id": "validate-elements-in-practice-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/PracticePage.feature",
+    "tags": []
+  }
+]
